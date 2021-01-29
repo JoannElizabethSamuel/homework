@@ -1,0 +1,86 @@
+1.what is a class?
+ans:properties of an object are called class.
+
+
+2.what is an object?
+ans:object is an instance of a class.
+
+
+3.what are property and functions?
+ans:properties are the attributes of a class.
+    a set of code performs an action is called a function.
+
+
+4.what are variables?
+ans:variables are memory spaces where computers store objects.
+
+
+5.difference between global variable and a local variable?
+ans:global variable can be used in the code where ever you want but local variable can only be used in functions.
+
+
+6.syntax of if else statement.
+ans:if(){}
+    else{}.
+
+
+7.syntax of if else if statement.
+ans:if(){}
+    else if(){}
+    else {}.
+
+
+8.for loop.
+ans:for(i=5(or any value);i =i+1(or any value);i=i<\>10(or any value));
+
+
+9.while loop.
+ans:while(i<\>5(or any value)){}
+    do{}.
+
+
+10.difference between for loop and while loop.
+ans:for loop:
+    for loop is used for repeating the number or the word when the exact value is known.
+    while loop:
+    while loop is used for repeating the number or the word when the exact value is not known.
+
+
+11.difference between assignment and comparison of value.
+ans:assignment:
+    assignment is assigning a value to the variables.
+    comparison:
+    comparison is comparing two variables with each other.
+
+
+12.what is string concatenation?
+ans:joining two strings together is called string concatenation.
+
+
+13.write a code to print numbers from 1 - 50.
+ans:for(i=1;i=i+1;i<50);
+
+
+14.write the code to print the even numbers 1 - 50.
+ans:for(i=2;i=i+2;i<50);
+
+
+15.write a code to print the lcm of two numbers.(10-20)
+ans:int n1 = 10, n2 = 20, lcm;
+
+    // maximum number between n1 and n2 is stored in lcm
+   if (n1>n2) { 
+      lcm=n1 ;
+}
+   else 
+{
+   lcm = n2;
+}
+
+
+    while(true) {
+      if( lcm % n1 == 0 && lcm % n2 == 0 ) {
+        print(" LCM is ", lcm);
+        break;
+      }
+      ++lcm;
